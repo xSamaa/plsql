@@ -12,7 +12,7 @@
         DBMS_OUTPUT.PUT_LINE('El nombre del empleado del codigo ' || v_id_empleado || ' es ' || v_nombre_empleado);
     END;
 
--- 2. Mostrar información de un empleado dando su codigo.
+-- 2. Mostrar toda la información de un empleado dando su codigo.
 
     DECLARE
         v_id_empleado Employees.Employee_Id%Type := &employees_id;
